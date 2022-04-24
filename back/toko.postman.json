@@ -1,0 +1,734 @@
+{
+	"info": {
+		"_postman_id": "e6699bdf-7628-4fd5-b8bb-dd4776ae6f4a",
+		"name": "toko",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ccustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zdt",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "0821",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "mlg",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/20035484_1.jpg"
+						},
+						{
+							"key": "username",
+							"value": "zdit",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pw",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/customer/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"customer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rcustomer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zdt",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "0821",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "mlg",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/20035484_1.jpg"
+						},
+						{
+							"key": "username",
+							"value": "zdit",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pw",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/customer/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"customer",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ucustomer",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zdt",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "0821",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "mlg",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/20035484_1.jpg"
+						},
+						{
+							"key": "username",
+							"value": "zdit",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pw",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/customer/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"customer",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dcustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zdt",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "0821",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "mlg",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/20035484_1.jpg"
+						},
+						{
+							"key": "username",
+							"value": "zdit",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pw",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/customer/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"customer",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadmin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/admin/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Radmin",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "nama admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/admin/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Uadmin",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "nama admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/admin/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dadmin",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "nama admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/admin/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cproduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "pucukHarum",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "3500",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "150",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/20035484_1.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/product/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rproduct",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "pucukHarum",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "3500",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "150",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/20035484_1.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/product/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Uproduct",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "teh",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "3500",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "150",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/b1a291fce8e52d0dee9c75fa0d7ae5f7.png"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dproduct",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "teh",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "3500",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "150",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Pictures/b1a291fce8e52d0dee9c75fa0d7ae5f7.png"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
